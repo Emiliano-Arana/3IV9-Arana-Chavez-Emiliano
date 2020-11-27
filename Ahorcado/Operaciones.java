@@ -72,7 +72,7 @@ public class Operaciones{
         t = palabra.length()-1;
         do{
             for(i=0;i<3;i++){
-                e[i] = ((int)Math.floor(Math.random()*(t-1)));
+                e[i] = ((int)Math.floor(Math.random()*(t)+1));
             }
         }while(e[0]==e[1]||e[0]==e[2]||e[1]==e[2]);
         for(i=1;i<(t);i++){

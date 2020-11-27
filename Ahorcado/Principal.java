@@ -52,10 +52,10 @@ public class Principal{
                             System.out.println("Ingresa la palabra que tu amigo va a adivinar");
                             palabra = entrada.nextLine();
                             tamano = op.tamanio(palabra);
-                            if(tamano<7){
-                                System.out.println("En este modo solo se aceptan palabras de minimo 7 letras");
+                            if(tamano<6){
+                                System.out.println("En este modo solo se aceptan palabras de minimo 6 letras");
                             }
-                        }while(tamano<7);
+                        }while(tamano<6);
                         System.out.println("Listo, ahora pasale el dispositivo a tu amigo");
                         palabra = op.conversion(palabra);
                         muestra = op.facilConvertir(palabra);
