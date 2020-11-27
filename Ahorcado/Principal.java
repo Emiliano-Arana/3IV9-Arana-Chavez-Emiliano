@@ -1,6 +1,13 @@
 import java.util.Scanner;
 
 public class Principal{
+
+    /*
+    La herencia y el encapsulamiento estan implementados en las clases
+    de las diferentes dificultades, los metodos estan en la clase de operaciones, 
+    hay un metodo para cada operacion que se requeria.
+    */
+
     public static void main(String[] args){
         //todas los objetos y variables
         Scanner entrada = new Scanner(System.in);
