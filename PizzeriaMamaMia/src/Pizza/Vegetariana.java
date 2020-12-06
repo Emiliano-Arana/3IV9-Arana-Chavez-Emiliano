@@ -17,7 +17,7 @@ public class Vegetariana extends Pizza{
         this.ingredientes[3] = "Elote";       
     }
     
-    public String elegirtipoqueso(){
+    public String elegiringredientes(){
         Scanner entrada = new Scanner(System.in);
         
         int t;
@@ -30,10 +30,10 @@ public class Vegetariana extends Pizza{
             System.out.println("3.- Pimiento");
             System.out.println("4.- Elote");
             t = entrada.nextInt();
-            if(t!=1&&t!=2){
+            if(t<1||t>4){
                 System.out.println("Ingrese un numero valido");
             }
-        }while(t!=1&&t!=2);
+        }while(t<1||t>4);
         ing = ingredientes[(t-1)];
         return ing;
     }

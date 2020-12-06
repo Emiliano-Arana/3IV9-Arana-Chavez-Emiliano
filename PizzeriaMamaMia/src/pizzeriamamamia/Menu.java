@@ -81,6 +81,9 @@ public class Menu {
                         break;
                     case 2:                    
                         piza[i] = new Peperonni();
+                        Peperonni pe = new Peperonni("masa", null, null);
+                        
+                        pe.elegiringredientes();
                         piza[i].hornear();
                         piza[i].cortar(tam);
                         piza[i].empacar();
@@ -88,6 +91,9 @@ public class Menu {
                         break;
                     case 3:
                         piza[i] = new Vegetariana();
+                        Vegetariana ve = new Vegetariana("masa", null, null);
+                        
+                        ve.elegiringredientes();
                         piza[i].hornear();
                         piza[i].cortar(tam);
                         piza[i].empacar();
