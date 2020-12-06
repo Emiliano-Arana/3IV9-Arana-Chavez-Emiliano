@@ -9,7 +9,7 @@ public class PizzeriaMamaMia {
                 Menu men = new Menu();
                 men.MenuOperaciones();
             }catch (Exception e){
-                System.out.println("Error, solo se aceptan numeros enteros");
+                System.out.println("Error, solo se aceptan numeros enteros positivos y menores a 2147483647");
             }
         }
     }
